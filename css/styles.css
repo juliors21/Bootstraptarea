@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; 
+    font-family: Arial, sans-serif; 
+}
+
+.navbar {
+    margin-bottom: 20px; /* Espacio debajo de la barra de navegación */
+}
+
+.carousel {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    max-height: 400px; /* Altura máxima para las imágenes del carrusel */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+}
+
+.card {
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    width: 200px;
+}
+
+.card-title {
+    font-weight: bold; /* Negrita para los títulos de las tarjetas */
+}
+
+.card-text {
+    color: #6c757d; /* Color gris para el texto de las tarjetas */
+}
+
+h2 {
+    margin-bottom: 20px; /* Espacio debajo de los encabezados */
+    color: #343a40; /* Color del texto de los encabezados */
+}
+
+.form-group label {
+    font-weight: bold; /* Negrita para las etiquetas del formulario */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón */
+    border-color: #007bff; /* Color del borde del botón */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    border-color: #0056b3; /* Color del borde al pasar el mouse */
+}
+
+/* Estilos específicos para la página de contacto */
+.container {
+    max-width: 800px; /* Ancho máximo para el contenedor */
+    margin: auto; /* Centrar el contenedor */
+}
+
+.form-control {
+    border-radius: 0; /* Bordes rectos para los campos del formulario */
+}
+
+.form-control:focus {
+    box-shadow: none; /* Sin sombra al enfocar */
+    border-color: #007bff; /* Color del borde al enfocar */
+}
+
+/* Estilos para el acordeón */
+.card-header {
+    background-color: #e9ecef; /* Color de fondo para el encabezado del acordeón */
+}
+
+.btn-link {
+    color: #007bff; /* Color del texto del botón del acordeón */
+}
+
+.btn-link:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
